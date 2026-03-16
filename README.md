@@ -38,7 +38,7 @@ You can download the latest APK from the [Releases](https://github.com/Toddo0/op
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/openwidrop.git
+   git clone https://github.com/Toddo0/openwidrop.git
    ```
 2. Open the project in **Android Studio**.
 3. Build and run on your device (or generate a signed APK).
