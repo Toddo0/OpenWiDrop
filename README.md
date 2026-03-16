@@ -32,7 +32,7 @@
 ## 📦 Installation
 
 ### Download APK
-You can download the latest APK from the [Releases](https://github.com/Toddo0/openwidrop/releases) page. *(Replace with your actual link)*
+You can download the latest APK from the [Releases](https://github.com/Toddo0/openwidrop/releases) page.
 
 ### Build from Source
 
