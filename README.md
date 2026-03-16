@@ -1,6 +1,6 @@
-# OpenWidrop
+# OpenWiDrop
 
-**OpenWidrop** is a simple, lightweight HTTP file server for Android. It allows you to share files from your Android device over Wi‑Fi. Just select a folder, and any device on the same network can browse, download, or upload files using a web browser.
+**OpenWiDrop** is a simple, lightweight HTTP file server for Android. It allows you to share files from your Android device over Wi‑Fi. Just select a folder, and any device on the same network can browse, download, or upload files using a web browser.
 
 ---
 
@@ -18,7 +18,7 @@
 
 ## 📸 Screenshots
 
-*(Add screenshots here if you have them – e.g., main screen, web interface, file listing, upload success.)*
+<a href="https://ibb.co/yms8Ny05"><img src="https://i.ibb.co/j94L8MhG/Screenshot-20260316-034801-Open-Wi-Drop.jpg" alt="Screenshot-20260316-034801-Open-Wi-Drop" border="0"></a>
 
 ---
 
