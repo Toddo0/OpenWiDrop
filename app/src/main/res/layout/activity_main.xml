@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Root: "
+            android:textSize="18sp"
+            android:layout_marginEnd="8dp"/>
+
+        <EditText
+            android:id="@+id/rootPathText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Select Root Folder"
+            android:textSize="18sp"
+            android:focusable="false"
+            android:clickable="false"
+            android:cursorVisible="false"/>
+        <Button
+            android:id="@+id/selectFolderButton"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:onClick="openFolderPicker"
+            android:text="Choose"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <!-- Port girişi için yatay düzen -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Port: "
+            android:textSize="18sp"
+            android:layout_marginEnd="8dp"/>
+
+        <EditText
+            android:id="@+id/portText"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:text="8080"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:onClick="portUpdate"
+            android:text="Set"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/urlText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/qrImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
+
+</LinearLayout>
